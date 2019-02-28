@@ -35,8 +35,12 @@ Run `docker-compose up -d --scale firefox=5` to scale 5 Firefox containers, each
 
 ## Running the tests
 
-Run `npm t` to run the e2e tests on both Chrome and Firefox headless browsers.
+Run `npm t` to run the e2e tests on both Chrome and Firefox headless browsers (Chrome tests will run first, and then Firefox tests will run).
 
-Run `npm run test:chrome` to run the e2e tests only on Chrome headless browser.
+Run `npm run test:chrome` to run the e2e tests only on Chrome headless browser (all tests will run in only one browser instance).
 
-Run `npm run test:firefox` to run the e2e tests only on Firefox headless browser.
+Run `npm run test:firefox` to run the e2e tests only on Firefox headless browser (all tests will run in only one browser instance).
+
+Run `npm run test:multi` to run the e2e tests on both Chrome and Firefox headless browsers in parallel.
+
+Run `npm run test:chrome:parallel` to run the e2e tests only on Chrome headless browser (each spec file will be executed in a different browser instance, in parallel).
