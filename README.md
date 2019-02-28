@@ -27,7 +27,7 @@ If they are not running, use `docker-compose up -d` to start them.
 
 ### Checking Selenium Grid
 
-With the containers up and running, access the following URL in your preferred browser to check that the Selenium Grid was correctly setup: http://localhost:4444/grid/console
+With the containers up and running, access the following URL in your preferred browser to check that the Selenium Grid was correctly setup: http://localhost:4444/grid/console.
 
 ### Curiosities
 
