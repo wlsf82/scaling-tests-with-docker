@@ -25,7 +25,7 @@ If they are not running, use `docker-compose up -d` to start them.
 
 > To shut down the containers use `docker-compose down`.
 
-### Curiosity
+### Curiosities
 
 Run `docker-compose up -d --scale chrome=10` to scale 10 Chrome containers, each with two Chrome browsers.
 
