@@ -25,6 +25,10 @@ If they are not running, use `docker-compose up -d` to start them.
 
 > To shut down the containers use `docker-compose down`.
 
+### Checking Selenium Grid
+
+With the containers up and running, access the following URL in your preferred browser to check that the Selenium Grid was correctly setup: http://localhost:4444/grid/console
+
 ### Curiosities
 
 Run `docker-compose up -d --scale chrome=10` to scale 10 Chrome containers, each with two Chrome browsers.
