@@ -5,7 +5,9 @@
   "scripts": {
     "test": "npm run test:chrome && npm run test:firefox",
     "test:chrome": "protractor tests/configurations/chrome.conf.js",
-    "test:firefox": "protractor tests/configurations/firefox.conf.js"
+    "test:firefox": "protractor tests/configurations/firefox.conf.js",
+    "test:multi": "protractor tests/configurations/multiCapabilities.conf.js",
+    "test:chrome:parallel": "protractor tests/configurations/chromeShard.conf.js"
   },
   "author": "Walmyr Filho <wlsf82@gmail.com> (https://walmyr-filho.com)",
   "license": "MIT",
