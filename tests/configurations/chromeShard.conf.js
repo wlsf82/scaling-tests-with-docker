@@ -5,6 +5,6 @@ module.exports.config = require("../createProtractorConfig")({
       args: ["--headless"]
     },
     shardTestFiles: true,
-    maxInstances: 2
+    maxInstances: 4
   }
 });
