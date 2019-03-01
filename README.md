@@ -31,9 +31,9 @@ With the containers up and running, access the following URL in your preferred b
 
 ### Curiosities
 
-Run `docker-compose up -d --scale chrome=10` to scale 10 Chrome containers, each with two Chrome browsers.
+Run `docker-compose up -d --scale chrome=10` to scale 10 Chrome services, each with two Chrome browsers.
 
-Run `docker-compose up -d --scale firefox=5` to scale 5 Firefox containers, each with four Firefox browsers.
+Run `docker-compose up -d --scale firefox=5` to scale 5 Firefox services, each with four Firefox browsers.
 
 > Take a look at the [docker-compose.yml](docker-compose.yml) file for more details on how the containers are setup.
 
