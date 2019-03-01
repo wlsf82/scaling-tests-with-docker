@@ -29,7 +29,7 @@ If they are not running, use `docker-compose up -d` to start them.
 
 With the containers up and running, access the following URL in your preferred browser to check that the Selenium Grid was correctly setup: http://localhost:4444/grid/console.
 
-### Curiosities
+### Scaling services
 
 Run `docker-compose up -d --scale chrome=10` to scale 10 Chrome services, each with two Chrome browsers.
 
