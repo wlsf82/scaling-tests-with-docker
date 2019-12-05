@@ -5,7 +5,7 @@ Sample project to experiment with Protractor tests running on Chrome and Firefox
 ## Pre-requisites
 
 - Docker needs to be installed and running.
-- Selenium, Selenium Chorme headless and Selenium Firefox headless images need to be pulled from Docker Hub.
+- Selenium, Selenium Chrome headless and Selenium Firefox headless images need to be pulled from Docker Hub.
 
 > Use the following command to pull the images from Docker Hub: `docker pull selenium/hub && docker pull selenium/node-chrome && docker pull selenium/node-chrome-debug && docker pull selenium/node-firefox && docker pull selenium/node-firefox-debug`
 
